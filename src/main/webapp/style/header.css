@@ -1,0 +1,46 @@
+/* Header styles */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}

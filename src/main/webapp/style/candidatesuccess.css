@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap");
+body {
+    background-image: linear-gradient(to right, #accbee 0%, #e7f0fd); 
+    
+}
+#card {
+    position: relative;
+    top: 210px;
+    width: 620px;
+    display: block;
+    margin: auto;
+    text-align: center;
+     font-family: "Raleway", sans-serif;
+}
+
+#upper-side {
+    padding: 3em;
+    height: 150px;
+    background-color: #8BC34A;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#checkmark {
+    font-weight: lighter;
+    fill: #fff;
+    margin: -2.7em auto auto 75px;
+}
+#status {
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-top: -0.2em;
+    margin-bottom: 0;
+}
+#lower-side {
+    padding: 2em 2em 5em 2em;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    	backdrop-filter: blur(7px);
+	border-radius:5px 5px 5px 5px;
+   
+}
+
+#message {
+    margin-top: 30px;
+    color: #757575;
+    letter-spacing: 1px;
+}
+#contBtn {
+    position: relative;
+    top: 1.5em;
+    text-decoration: none;
+    background: #8bc34a;
+    color: #fff;
+    margin: auto;
+    padding: 0.8em 3em;
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    border-radius: 25px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#contBtn:hover {
+    -webkit-box-shadow: 0px 15px 30px rgba(60, 60, 60, 0.4);
+    -moz-box-shadow: 0px 15px 30px rgba(60, 60, 60, 0.4);
+    box-shadow: 0px 15px 30px rgba(60, 60, 60, 0.4);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
